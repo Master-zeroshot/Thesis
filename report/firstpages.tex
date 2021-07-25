@@ -1,0 +1,216 @@
+%*************************************************
+% In this file the first few pages are typeset.
+% Make the changes accordingly
+%*************************************************
+
+% شماره صفحات با حروف
+\pagenumbering{adadi}
+
+%***************************
+% 1st page: Blank
+%***************************
+\thispagestyle{empty}
+\mbox{}
+\pagebreak
+
+%***************************
+% 2nd page: Besmelah
+%***************************
+\thispagestyle{empty}
+\begin{center}
+	~\vfill
+	\includegraphics[scale=1]{besm1.jpg}
+	~\vfill
+\end{center}
+\pagebreak
+
+%***************************
+% 3rd page: Title
+%***************************
+\thispagestyle{empty}
+%\pagenumbering{gobble}
+\newgeometry{left=3cm,right=3cm,top=2cm}
+\begin{center}
+\includegraphics[height=3cm]{sbu_logo.png}
+\vspace{0.4cm}
+
+\textbf{دانشگاه شهید بهشتی}\\
+\vspace{0.4cm}
+
+{\large
+
+	پژوهشکده فضای مجازی
+}
+\vspace{3.5cm}
+
+{\Large
+	\textbf{ارائه روشی برای تشخیص جعل تصویر چهره بر پایه یادگیری بدون نمونه}\\
+}
+\vspace{3.5cm}
+
+{\Large
+	پایان‌نامه کارشناسی‌ارشد فناوری اطلاعات گرایش چند رسانه‌ای\\
+}
+\vspace{1cm}
+
+{\large
+	\textbf{سید مصطفی حسینی کشکوئیه}\\
+}
+\vspace{2.5cm}
+
+{\large
+	استاد راهنما\\
+}
+\vspace{0.5cm}
+
+{\large
+	\textbf{دکتر احمد محمودی ازناوه}\\
+}
+\vspace{5cm}
+\textbf{۱۴۰۰}
+
+\end{center}
+\restoregeometry
+\pagebreak
+
+%%***************************
+%% 4th page: Acknowledgment
+%%***************************
+\thispagestyle{empty}
+\newgeometry{left=3cm,right=3cm,top=2cm}
+\begin{center}
+	\includegraphics[height=3cm]{sbu_logo.png}
+	%\vspace{0.5cm}
+	
+	{\large
+		\textbf{دانشگاه شهید بهشتی}\\
+	پژوهشکده فضای مجازی
+	}
+	\vspace{5cm}
+	
+	%\vfill
+	
+	{\Large	
+		پایان‌نامه کارشناسی ارشد --
+		آقای سید مصطفی حسینی کشکوئیه \\
+		\vspace{.3cm}
+		تحت عنوان\\
+	}
+\end{center}
+
+\begin{center}
+	{\large
+		\textbf{ارائه روشی برای تشخیص جعل تصویر چهره بر پایه یادگیری بدون نمونه}\\
+	}
+\end{center}
+\vfill
+\vspace*{1.8cm}
+\quad \quad \quad
+در تاریخ 			 توسط کمیته‌ی تخصصی زیر مورد بررسی و تصویب نهایی قرار گرفت:\\
+
+{\normalsize
+	
+	\begin{tabular}{rr}
+		\vspace*{.8cm}
+		۱- استاد راهنمای پایان‌نامه  & \hspace{2cm}دکتر  \\
+	
+		\vspace{.8cm}
+		۳- استاد داور  &\hspace{2cm}دکتر  \\
+		\vspace{.8cm}
+		۴- استاد داور  &\hspace{2cm}دکتر  \\
+		\vspace{.8cm}
+	
+	
+		سرپرست تحصیلات تکمیلی دانشکده &\hspace{2cm} دکتر \\
+	\end{tabular}
+}
+\restoregeometry
+\pagebreak
+
+%%***************************
+%% 5th page: Acknowledgment
+%%***************************
+\thispagestyle{empty}
+\newgeometry{left=3cm,right=4cm,top=4cm}
+\vspace*{1.5cm}
+
+{\large
+	\textbf{تشکر و قدردانی}\\
+
+پروردگار منان را سپاسگزارم.
+}
+\restoregeometry
+\pagebreak
+
+%***************************
+% 6th page: Rights
+%***************************
+\thispagestyle{empty}
+\newgeometry{left=6cm,right=6cm}
+
+\begin{spacing}{3}
+\leavevmode
+\vfill
+\parbox{8 cm}{
+
+\textbf{\Large  کلیه حقوق مالکیت مادی و معنوی مربوط به اين پايان نامه متعلق به دانشگاه شهید بهشتی و پدیدآورندگان است. این حقوق توسط دانشگاه شهید بهشتی و بر اساس خط مشی مالکیت فکری این دانشگاه، ارزش‌گذاری و سهم بندی خواهد شد.
+			هر گونه بهره برداری از محتوا، نتايج یا اقدام برای تجاری‌سازی دستاوردهای اين پايان نامه تنها با مجوز کتبی دانشگاه شهید بهشتی امکان‌پذیر است.}
+
+}
+\vfill
+\end{spacing}
+\restoregeometry
+\pagebreak
+
+%%***************************
+%% 7th page: Dedication
+%%***************************
+%\thispagestyle{empty}
+%\vspace*{4cm}
+%
+%{\LARGE
+%\centering
+%\textbf{تقدیم به \\ پدر و مادر عزیزم }
+%
+%}
+%\pagebreak
+
+
+%***************************
+%  Blank
+%***************************
+%\thispagestyle{empty}
+%\mbox{}
+%\pagebreak
+
+%***************************
+% 8th page: Table of contents
+%***************************
+
+\titleformat{\chapter}[display]
+	{\normalfont\LARGE\bfseries\centering}{\chaptertitlename ~ \tartibi{chapter}}{20pt}{\LARGE}
+%\newgeometry{left=2.5cm,right=3cm,top=3cm,bottom=2.5cm,includehead=false,headsep=1cm,footnotesep=.5cm}
+\newgeometry{left=2cm,right=2cm,top=3.5cm,bottom=3cm,includehead=false,headsep=.5cm,footnotesep=.2cm}
+\baselineskip=.7cm
+
+\addtocontents{toc}{\textbf{\underline{عنوان}}}
+\addtocontents{toc}{\hfill\textbf{\underline{صفحه}}\par}
+\addcontentsline{toc}{section}{فهرست مطالب}
+\tableofcontents
+\pagebreak
+
+\addcontentsline{toc}{section}{فهرست تصاویر}
+\listoffigures
+\pagebreak
+
+\addcontentsline{toc}{section}{فهرست جداول}
+\listoftables
+\pagebreak
+
+% change the font and margins of a chapter title
+\titlespacing*{\chapter}{0pt}{3.5cm}{6cm}
+\titleformat{\chapter}[display]
+	{\normalfont\LARGE\bfseries\raggedright}{\chaptertitlename ~ \tartibi{chapter}}{20pt}{\LARGE}
+
+% No page numbers on the first page of a chapter
+\assignpagestyle{\chapter}{empty}

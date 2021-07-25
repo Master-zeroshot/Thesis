@@ -1,0 +1,153 @@
+\lr{English}, \rl{فارسی}
+\lr{Adversary}, \rl{متخاصم}
+\lr{Agents}, \rl{عامل‌ها}
+\lr{Agents}, \rl{عامل‌های}
+\lr{Algorand uses ``Leader"}, \rl{پیشنهاد‌دهنده}
+\lr{Asynchronous}, \rl{ناهمگامی}
+\lr{Autonomous}, \rl{خودمختار}
+\lr{Availability}, \rl{دسترس‌پذیری}
+\lr{Backward Compatibility}, \rl{سازگاری عقب‌رو}
+\lr{Binary \BAStar}, \rl{الگوریتم اجماع دوتایی}
+\lr{Bitcoin}, \rl{بیت‌کوین}
+\lr{Bitcoin Imporvement Proposal}, \rl{پیشنهاده بهبود بیت‌کوین}
+\lr{Block}, \rl{بلوک}
+\lr{Block Reward}, \rl{پاداش بلوک}
+\lr{Block Withholding Attack}, \rl{حمله نگهداری بلوک}
+\lr{Blockchain}, \rl{بلاک‌چین}
+\lr{Broadcast}, \rl{همه‌پخشی می‌کند}
+\lr{Byzantine Adversaries}, \rl{دشمن بیزانتین}
+\lr{Byzantine Agreement Protocols}, \rl{توافق بیزانسی}
+\lr{Byzantine Fault Talerant Protocols}, \rl{پروتکل‌های با تحمل خطای بیزانسی}
+\lr{Carbon Footprint}, \rl{اثر کربن}
+\lr{Centralization}, \rl{تمرکز}
+\lr{Clearing House}, \rl{اتاق تسویه}
+\lr{Coin Base}, \rl{مخزن سکه}
+\lr{Committees}, \rl{کمیته‌های}
+\lr{Complete information game}, \rl{بازی با اطلاعات کامل}
+\lr{Complete-information Hames}, \rl{بازی‌های با اطلاعات کامل}
+\lr{Consensus Protocol}, \rl{پروتکل اجماع}
+\lr{Cooperative Games}, \rl{بازی‌های همکارانه}
+\lr{Corrupt}, \rl{ساقط}
+\lr{Cryptocurrency}, \rl{رمزارزی}
+\lr{DNS (Domain Name Services)}, \rl{سرویس‌های نام دامنه}
+\lr{Difficulty}, \rl{سختی}
+\lr{Director Node}, \rl{گره هدایت‌کننده}
+\lr{Directory}, \rl{هدایت‌کننده}
+\lr{Distibuted Markets}, \rl{بازار‌های توزیع شده}
+\lr{Distributed Public Ledger}, \rl{دفترکل توزیع‌شده}
+\lr{Distributed Systems}, \rl{سیستم‌های توزیع‌شده}
+\lr{Dominant Strategy}, \rl{استراتژی غالب}
+\lr{Dominant Strategy}, \rl{استراتژی غالب}
+\lr{Dominated Strategy}, \rl{استراتژی مغلوب}
+\lr{Dynamic Games}, \rl{پویا}
+\lr{Enterprise}, \rl{سازمانی}
+\lr{Epoch}, \rl{دوره‌های زمانی تکرارشونده}
+\lr{Exhaustive Search}, \rl{جست‌وجوی فراگیر}
+\lr{Extension}, \rl{افزونه‌ای}
+\lr{Fetch}, \rl{واکشی}
+\lr{Final}, \rl{نهایی}
+\lr{Final Committee}, \rl{کمیته‌نهایی}
+\lr{Fork}, \rl{شاخه}
+\lr{Fully Connected}, \rl{کاملا-متصل}
+\lr{Gossip Protocols}, \rl{پروتکل‌های شایعه}
+\lr{Hash}, \rl{چکیده}
+\lr{Hash-pointer}, \rl{هش-پوینتر}
+\lr{Honest}, \rl{درست‌کار}
+\lr{Identifier}, \rl{مشخصه}
+\lr{Incomplete information game}, \rl{بازی‌های بدون اطلاعات کامل}
+\lr{Incomplete-information Games}, \rl{بدون اطلاعات کامل}
+\lr{Inconsistency}, \rl{ناسازگاری}
+\lr{Lightening Networks}, \rl{شبکه‌های لایتنینگ}
+\lr{Liquidity}, \rl{نقدینگی}
+\lr{Liveness}, \rl{حاضر بودن}
+\lr{LoC}, \rl{خط}
+\lr{Mandatory}, \rl{اجباری}
+\lr{Map}, \rl{نگاشت}
+\lr{Merkle Tree}, \rl{درخت مرکل}
+\lr{Message Passing}, \rl{ارسال پیام}
+\lr{Micro Payments}, \rl{پرداخت‌های خرد}
+\lr{Miner}, \rl{ماینرها}
+\lr{Mining}, \rl{استخراج}
+\lr{Mining Pools}, \rl{استخرهای استخراج}
+\lr{Nash Equilibrium}, \rl{نقطه تعادل نش}
+\lr{Nash equilibria}, \rl{نقاط تعادل نش}
+\lr{Nodes}, \rl{گره‌های}
+\lr{Non-cooperative}, \rl{غیرهمکار}
+\lr{Non-cooperative Games}, \rl{غیر همکارانه}
+\lr{Non-perfect information games}, \rl{بدون اطلاعات جامع}
+\lr{Nonce}, \rl{تک‌شمار}
+\lr{PKI (Public Key Infrastructure)}, \rl{زیرساخت کلید عمومی}
+\lr{Payoff}, \rl{منفعت}
+\lr{Peer to Peer}, \rl{همتا-به-همتا}
+\lr{Perfect Information Games}, \rl{بازی‌های با اطلاعات جامع}
+\lr{Permissionless}, \rl{بدون مجوز}
+\lr{Plasma}, \rl{پلاسما}
+\lr{Player}, \rl{بازیکن}
+\lr{PoS}, \rl{اثبات سهام}
+\lr{PoW (Proof of Work)}, \rl{اثبات کار}
+\lr{Prisoner's Dilemma}, \rl{دوراهی زندانی}
+\lr{Processor}, \rl{پردازنده}
+\lr{Pseudo Anonimity}, \rl{شبه گمنامی}
+\lr{Public Good Game}, \rl{بازی کالای عمومی}
+\lr{Public Good Game}, \rl{بازی کالای عمومی}
+\lr{Punishment Mechanisms}, \rl{مکانیزم‌های تنبیهی}
+\lr{Raiden Network}, \rl{شبکه رِیدن}
+\lr{Rational}, \rl{منطقی}
+\lr{Rational}, \rl{منطقی}
+\lr{Reduce}, \rl{کاهش}
+\lr{Reduction}, \rl{کاهش}
+\lr{Repeated Games}, \rl{بازی‌های تکرارشونده}
+\lr{Reward Pool}, \rl{استخر پاداش}
+\lr{Safty}, \rl{امنیت}
+\lr{Satoshi Nakamoto}, \rl{«ساتوشی ناکاماتو»}
+\lr{Scalability}, \rl{مقیاس‌ناپذیری}
+\lr{Seed}, \rl{بذر}
+\lr{Segregated Witness}, \rl{شاهد مجزا}
+\lr{Self-intrested}, \rl{خود محور}
+\lr{Self-intrested}, \rl{خودمحور}
+\lr{Selfish}, \rl{خودخواه}
+\lr{Selfish Mining}, \rl{استخراج خودخواهانه}
+\lr{Selfish Nodes}, \rl{گره‌های خودخواه}
+\lr{Service}, \rl{ارائه خدمت}
+\lr{Settled}, \rl{تهاتر‌ شده}
+\lr{Sharding}, \rl{بخش‌بندی‌شده}
+\lr{Shards}, \rl{بخش‌های}
+\lr{Side Channels}, \rl{کانال‌های جانبی}
+\lr{Smart Contracts}, \rl{قراردادهای هوشمند}
+\lr{Smart Properties}, \rl{دارایی‌های هوشمند}
+\lr{Solo Mining}, \rl{استخراج تک‌نفره}
+\lr{Sortition}, \rl{قرعه‌کشی}
+\lr{Sortition Proof}, \rl{رسید قرعه‌کشی}
+\lr{Stake}, \rl{سهام}
+\lr{Static Game}, \rl{بازی ایستا}
+\lr{Static Games}, \rl{بازی‌های ایستا}
+\lr{Steady State}, \rl{نقطه ثبات}
+\lr{Stochastic Games}, \rl{تصادفی}
+\lr{Stochastic Games}, \rl{بازی‌های تصادفی}
+\lr{Strategy Profile}, \rl{‌مجموعه استراتژی‌ای}
+\lr{Strictly Dominated}, \rl{اکیدا مغلوب}
+\lr{Strong Synchrony Set}, \rl{مجموعه همگامی قوی}
+\lr{Strongly Synchronous}, \rl{قویا همگام}
+\lr{Sustainability}, \rl{پایداری}
+\lr{Symmetric Nash Equilibrium}, \rl{نقطه تعادل نش متقارنی}
+\lr{Symmetric Nash Equilibrium}, \rl{نقطعه تعادل نش متقارن}
+\lr{Tentative}, \rl{غیرقطعی}
+\lr{Timestamp}, \rl{مهر زمانی}
+\lr{Token}, \rl{نشان}
+\lr{Trade Off}, \rl{بده‌بستانی}
+\lr{Transaction Fee Pool}, \rl{استخر کارمزد}
+\lr{Transaction Malleability}, \rl{چکش‌خواری تراکنش‌ها}
+\lr{Transaction Pool}, \rl{استخر تراکنش}
+\lr{Transferable Virtual Property}, \rl{دارایی‌های مجازی قابل  واگذاری}
+\lr{Truncate}, \rl{بریدن}
+\lr{Trustless Environments}, \rl{بی‌اعتمادی}
+\lr{Unilaterally}, \rl{به تنهایی}
+\lr{Valid}, \rl{معتبر}
+\lr{Validation}, \rl{اعتبارسنجی}
+\lr{Verfiy}, \rl{وارسی}
+\lr{VisaNet}, \rl{شبکه ویزا}
+\lr{Weak Synchrony}, \rl{همگامی ضعیف}
+\lr{ZCash}, \rl{زی‌کش}
+\lr{Zero Coin}, \rl{زیروکوین}
+\lr{Zero Knowledger Proof}, \rl{اثبات‌های هیچ‌آگاهی}
+\lr{Zero-sum Games}, \rl{بازی‌های مجموع صفر}

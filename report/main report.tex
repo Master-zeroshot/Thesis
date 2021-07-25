@@ -1,0 +1,92 @@
+%*************************************************
+% A template for PhD and MSc thesis. V1.0.
+% Please see "guideline.pdf" first.
+%*************************************************
+% Seyed Mostafa Hosseini, 1399
+% Shahid Beheshti University
+%*************************************************
+% این قالب بر اساس "شیوه‌نامه تدوین پایان‌نامه‌ها و رساله‌های 
+%تحصیلات تکمیلی" دانشگاه شهید بهشتی تهیه شده است
+%*************************************************
+
+\documentclass[a4paper,fleqn]{report} 
+%\usepackage{refcheck}
+
+% All the packages and general definitions are included in this file: preamble.tex
+\include{preamble}							
+\definecolor{myColor}{rgb}{0.88,1,1}
+
+\begin{document}
+
+% TODOlist
+%\begin{latin}
+%	\listoftodos[TODO List]
+%\end{latin}
+
+\newpage
+
+% Start of the revision history table
+%\begin{table}[t]
+%	\caption{جدول تغییرات}
+%	\begin{center}
+%  		\rowcolors{2}{cyan!20}{cyan!70}
+%		\resizebox{\textwidth}{!}{
+%		\begin{tabular}{c | r | r} \hline
+%			{ \textbf{نسخه}}  & { \textbf{توضیحات}} & { \textbf{تاریخ}}  \\  
+%%			\rowcolor[cyan]{.9}
+%			 \hline
+%				۳	&	تغییر ساختار گزارش	&	۲۹ اردیبهشت ۱۳۹۹	\\
+%				۳	&	اتمام فصل دوم			&	۲۹ اردیبهشت ۱۳۹۹	\\
+%
+%		\end{tabular}}
+%	\end{center}
+%	\label{tab:elastico-symbols}
+%\end{table}
+%
+
+% The first pages (before abstract) are included in this file: firstpages.tex
+
+\include{firstpages}							
+
+% The abstract of the paper goes here: abstract.tex
+\include{abstract}								
+
+%*****************************************************************
+%% تنظیم مناسب صفحه و فونت برای متن اصلی پایان‌نامه
+\newgeometry{left=2cm,right=2cm,top=3.5cm,bottom=3cm,includehead=false,headsep=.5cm,footnotesep=.2cm}
+\settextfont{XB Zar}\fontsize{13}{6}\selectfont
+\setlatintextfont{FreeSerif}\fontsize{11}{6}
+\baselineskip=1.2cm
+
+% Moving page number to top right
+\pagestyle{myheadings}
+
+%\bibliographystyle{unsrt}
+%\bibliographystyle{ieeetran}
+%*****************************************************************
+
+% Main chapters
+\include{chap1-introduction}
+\include{chap2-research_bacground}
+\include{chap3-related_work}
+\include{chap4-suggested_work}
+\include{chap5-implentation}
+\include{chap6-evaluation}
+\include{chap7-conclusion}
+
+
+
+% Appendices
+\appendix
+%\include{app1}
+%\include{game-app}
+%\include{copyrigth-app}
+
+%\include{glossary}
+\include{references}
+
+%\include{abstract_english}
+
+%\include{lastpages}
+
+\end{document}
