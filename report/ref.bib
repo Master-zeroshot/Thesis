@@ -1,71 +1,149 @@
 @article{Lampert2014,
-abstract = {We study the problem of object recognition for categories for which we have no training examples, a task also called zero-data or zero-shot learning. This situation has hardly been studied in computer vision research, even though it occurs frequently; the world contains tens of thousands of different object classes, and image collections have been formed and suitably annotated for only a few of them. To tackle the problem, we introduce attribute-based classification: Objects are identified based on a high-level description that is phrased in terms of semantic attributes, such as the object's color or shape. Because the identification of each such property transcends the specific learning task at hand, the attribute classifiers can be prelearned independently, for example, from existing image data sets unrelated to the current task. Afterward, new classes can be detected based on their attribute representation, without the need for a new training phase. In this paper, we also introduce a new data set, Animals with Attributes, of over 30,000 images of 50 animal classes, annotated with 85 semantic attributes. Extensive experiments on this and two more data sets show that attribute-based classification indeed is able to categorize images without access to any training images of the target classes. {\textcopyright} 2014 IEEE.},
-author = {Lampert, Christoph H. and Nickisch, Hannes and Harmeling, Stefan},
-doi = {10.1109/TPAMI.2013.140},
-issn = {01628828},
-journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
-keywords = {Object recognition,vision and scene understanding},
-month = {mar},
-number = {3},
-pages = {453--465},
-title = {{Attribute-based classification for zero-shot visual object categorizationa}},
-volume = {36},
-year = {2014}
+    abstract = {We study the problem of object recognition for categories for which we have no training examples, a task also called zero-data or zero-shot learning. This situation has hardly been studied in computer vision research, even though it occurs frequently; the world contains tens of thousands of different object classes, and image collections have been formed and suitably annotated for only a few of them. To tackle the problem, we introduce attribute-based classification: Objects are identified based on a high-level description that is phrased in terms of semantic attributes, such as the object's color or shape. Because the identification of each such property transcends the specific learning task at hand, the attribute classifiers can be prelearned independently, for example, from existing image data sets unrelated to the current task. Afterward, new classes can be detected based on their attribute representation, without the need for a new training phase. In this paper, we also introduce a new data set, Animals with Attributes, of over 30,000 images of 50 animal classes, annotated with 85 semantic attributes. Extensive experiments on this and two more data sets show that attribute-based classification indeed is able to categorize images without access to any training images of the target classes. {\textcopyright} 2014 IEEE.},
+    author = {Lampert, Christoph H. and Nickisch, Hannes and Harmeling, Stefan},
+    doi = {10.1109/TPAMI.2013.140},
+    issn = {01628828},
+    journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    keywords = {Object recognition,vision and scene understanding},
+    month = {mar},
+    number = {3},
+    pages = {453--465},
+    title = {{Attribute-based classification for zero-shot visual object categorizationa}},
+    volume = {36},
+    year = {2014}
 }
 
 @Misc{L2L,
-title = {{Towards Lifelong Learning Machines (L2L): How can zero shot learning lead to L2L?, youtube.com}},
-url = {https://www.youtube.com/watch?v=R5xDHOcpU0s},
-urldate = {2020-04-23}
+    title = {{Towards Lifelong Learning Machines (L2L): How can zero shot learning lead to L2L?, youtube.com}},
+    url = {https://www.youtube.com/watch?v=R5xDHOcpU0s},
+    urldate = {2020-04-23}
 }
 
 @article{Wang2019,
-abstract = {Most machine-learning methods focus on classifying instances whose classes have already been seen in training. In practice, many applications require classifying instances whose classes have not been seen previously. Zero-shot learning is a powerful and promising learning paradigm, in which the classes covered by training instances and the classes we aim to classify are disjoint. In this paper, we provide a comprehensive survey of zero-shot learning. First of all, we provide an overview of zero-shot learning. According to the data utilized in model optimization, we classify zero-shot learning into three learning settings. Second, we describe different semantic spaces adopted in existing zero-shot learning works. Third, we categorize existing zero-shot learning methods and introduce representative methods under each category. Fourth, we discuss different applications of zero-shot learning. Finally, we highlight promising future research directions of zero-shot learning.},
-author = {Wang, Wei and Zheng, Vincent W. and Yu, Han and Miao, Chunyan},
-doi = {10.1145/3293318},
-issn = {2157-6904},
-journal = {ACM Transactions on Intelligent Systems and Technology},
-keywords = {Zero-shot learning survey},
-month = {jan},
-number = {2},
-pages = {1--37},
-publisher = {Association for Computing Machinery},
-title = {{A Survey of Zero-Shot Learning}},
-url = {https://dl.acm.org/doi/10.1145/3293318},
-volume = {10},
-year = {2019}
+    abstract = {Most machine-learning methods focus on classifying instances whose classes have already been seen in training. In practice, many applications require classifying instances whose classes have not been seen previously. Zero-shot learning is a powerful and promising learning paradigm, in which the classes covered by training instances and the classes we aim to classify are disjoint. In this paper, we provide a comprehensive survey of zero-shot learning. First of all, we provide an overview of zero-shot learning. According to the data utilized in model optimization, we classify zero-shot learning into three learning settings. Second, we describe different semantic spaces adopted in existing zero-shot learning works. Third, we categorize existing zero-shot learning methods and introduce representative methods under each category. Fourth, we discuss different applications of zero-shot learning. Finally, we highlight promising future research directions of zero-shot learning.},
+    author = {Wang, Wei and Zheng, Vincent W. and Yu, Han and Miao, Chunyan},
+    doi = {10.1145/3293318},
+    issn = {2157-6904},
+    journal = {ACM Transactions on Intelligent Systems and Technology},
+    keywords = {Zero-shot learning survey},
+    month = {jan},
+    number = {2},
+    pages = {1--37},
+    publisher = {Association for Computing Machinery},
+    title = {{A Survey of Zero-Shot Learning}},
+    url = {https://dl.acm.org/doi/10.1145/3293318},
+    volume = {10},
+    year = {2019}
 }
 
 @TechReport{Koch,
-abstract = {The process of learning good features for machine learning applications can be very compu-tationally expensive and may prove difficult in cases where little data is available. A prototyp-ical example of this is the one-shot learning setting , in which we must correctly make predictions given only a single example of each new class. In this paper, we explore a method for learning siamese neural networks which employ a unique structure to naturally rank similarity between inputs. Once a network has been tuned, we can then capitalize on powerful discrimina-tive features to generalize the predictive power of the network not just to new data, but to entirely new classes from unknown distributions. Using a convolutional architecture, we are able to achieve strong results which exceed those of other deep learning models with near state-of-the-art performance on one-shot classification tasks. Humans exhibit a strong ability to acquire and recognize new patterns. In particular, we observe that when presented with stimuli, people seem to be able to understand new concepts quickly and then recognize variations on these concepts in future percepts (Lake et al., 2011). Machine learning has been successfully used to achieve state-of-the-art performance in a variety of applications such as web search, spam detection, caption generation, and speech and image recognition. However, these algorithms often break down when forced to make predictions about data for which little supervised information is available. We desire to generalize to these unfamiliar categories without necessitating extensive retraining which may be either expensive or impossible due to limited data or in an online prediction setting, such as web retrieval.},
-author = {Koch, Gregory and Zemel, Richard and Salakhutdinov, Ruslan},
-title = {{Siamese Neural Networks for One-shot Image Recognition}},
-year= {2015}
+    abstract = {The process of learning good features for machine learning applications can be very compu-tationally expensive and may prove difficult in cases where little data is available. A prototyp-ical example of this is the one-shot learning setting , in which we must correctly make predictions given only a single example of each new class. In this paper, we explore a method for learning siamese neural networks which employ a unique structure to naturally rank similarity between inputs. Once a network has been tuned, we can then capitalize on powerful discrimina-tive features to generalize the predictive power of the network not just to new data, but to entirely new classes from unknown distributions. Using a convolutional architecture, we are able to achieve strong results which exceed those of other deep learning models with near state-of-the-art performance on one-shot classification tasks. Humans exhibit a strong ability to acquire and recognize new patterns. In particular, we observe that when presented with stimuli, people seem to be able to understand new concepts quickly and then recognize variations on these concepts in future percepts (Lake et al., 2011). Machine learning has been successfully used to achieve state-of-the-art performance in a variety of applications such as web search, spam detection, caption generation, and speech and image recognition. However, these algorithms often break down when forced to make predictions about data for which little supervised information is available. We desire to generalize to these unfamiliar categories without necessitating extensive retraining which may be either expensive or impossible due to limited data or in an online prediction setting, such as web retrieval.},
+    author = {Koch, Gregory and Zemel, Richard and Salakhutdinov, Ruslan},
+    title = {{Siamese Neural Networks for One-shot Image Recognition}},
+    year = {2015}
 }
 
+@article{Goodfellow2014,
+    abstract = {We propose a new framework for estimating generative models via an
+ adversarial process, in which we simultaneously train two models: a generative
+ model G that captures the data distribution, and a discriminative model D that
+ estimates the probability that a sample came from the training data rather than
+ G. The training procedure for G is to maximize the probability of D making a
+ mistake. This framework corresponds to a minimax two-player game. In the space
+ of arbitrary functions G and D, a unique solution exists, with G recovering the
+ training data distribution and D equal to 1/2 everywhere. In the case where G
+ and D are defined by multilayer perceptrons, the entire system can be trained
+ with backpropagation. There is no need for any Markov chains or unrolled
+ approximate inference networks during either training or generation of samples.
+ Experiments demonstrate the potential of the framework through qualitative and
+ quantitative evaluation of the generated samples.},
+    archivePrefix = {arXiv},
+    arxivId = {1406.2661},
+    author = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+    eprint = {1406.2661},
+    journal = {Communications of the ACM},
+    month = {jun},
+    number = {11},
+    pages = {139--144},
+    publisher = {Association for Computing Machinery},
+    title = {{Generative Adversarial Networks}},
+    url = {https://arxiv.org/abs/1406.2661v1},
+    volume = {63},
+    year = {2014}
+}
+
+
 @misc{metaLearning1,
-title = {{From zero to research — An introduction to Meta-learning, medium.com}},
-url = {https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a},
-urldate = {2020-04-24}
+    title = {{From zero to research — An introduction to Meta-learning, medium.com}},
+    url = {https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a},
+    urldate = {2020-04-24}
 }
 
 @misc{metaLearning2,
-title = {{Meta-Learning: Learning to Learn Fast, lilianweng.github.io}},
-url = {https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html},
-urldate = {2020-04-24}
+    title = {{Meta-Learning: Learning to Learn Fast, lilianweng.github.io}},
+    url = {https://lilianweng.github.io/lil-log/2018/11/30/meta-learning.html},
+    urldate = {2020-04-24}
 }
 
 @misc{awesomeZeroShot,
-	title = {{sbharadwajj/awesome-zero-shot-learning: A curated list of papers, code and resources pertaining to zero shot learning}},
-	url = {https://github.com/sbharadwajj/awesome-zero-shot-learning},
-	urldate = {2020-04-24}
+    title = {{sbharadwajj/awesome-zero-shot-learning: A curated list of papers, code and resources pertaining to zero shot learning}},
+    url = {https://github.com/sbharadwajj/awesome-zero-shot-learning},
+    urldate = {2020-04-24}
 }
 
 @misc{AwesomeMeta,
-	title = {{sudharsan13296/Awesome-Meta-Learning: A curated list of Meta Learning papers, code, books, blogs, videos, datasets and other resources.}},
-	url = {https://github.com/sudharsan13296/Awesome-Meta-Learning},
-	urldate = {2020-04-24}
+    title = {{sudharsan13296/Awesome-Meta-Learning: A curated list of Meta Learning papers, code, books, blogs, videos, datasets and other resources.}},
+    url = {https://github.com/sudharsan13296/Awesome-Meta-Learning},
+    urldate = {2020-04-24}
 }
+
+@article{Guo2021,
+    abstract = {We introduce a new attack against face verification systems based on Deep Neural Networks (DNN). The attack relies on the introduction into the network of a hidden backdoor, whose activation at test time induces a verification error allowing the attacker to impersonate any user. The new attack, named Master Key backdoor attack, operates by interfering with the training phase, so to instruct the DNN to always output a positive verification answer when the face of the attacker is presented at its input. With respect to existing attacks, the new backdoor attack offers much more flexibility, since the attacker does not need to know the identity of the victim beforehand. In this way, he can deploy a Universal Impersonation attack in an open-set framework, allowing him to impersonate any enrolled users, even those that were not yet enrolled in the system when the attack was conceived. We present a practical implementation of the attack targeting a Siamese-DNN face verification system, and show its effectiveness when the system is trained on VGGFace2 dataset and tested on LFW and YTF datasets. According to our experiments, the Master Key backdoor attack provides a high attack success rate even when the ratio of poisoned training data is as small as 0.01, thus raising a new alarm regarding the use of DNN-based face verification systems in security-critical applications.},
+    archivePrefix = {arXiv},
+    arxivId = {2105.00249},
+    author = {Guo, Wei and Tondi, Benedetta and Barni, Mauro},
+    doi = {10.1016/j.patrec.2021.01.009},
+    eprint = {2105.00249},
+    issn = {01678655},
+    journal = {Pattern Recognition Letters},
+    keywords = {Adversarial machine learning,Backdoor attacks to CNN,Biometric security,Face verification,Presentation attacks},
+    pages = {61--67},
+    title = {{A Master Key backdoor for universal impersonation attack against DNN-based face verification}},
+    volume = {144},
+    year = {2021}
+}
+
+@article{Zhang2020,
+    abstract = {In the race of arms between attackers, trying to build more and more realistic face replay attacks, and defenders, deploying spoof detection modules with ever-increasing capabilities, CNN-based methods have shown outstanding detection performance thus raising the bar for the construction of realistic replay attacks against face-based authentication systems. Rather than trying to rebroadcast even more realistic faces, we show that attackers can successfully fool a face authentication system equipped with a deep learning spoof detection module, by exploiting the vulnerabilities of CNNs to adversarial perturbations. We first show that mounting such an attack is not a trivial task due to the unique features of spoofing detection modules. Then, we propose a method to craft adversarial images that can be successfully exploited to build an effective replay attack. Experiments conducted on the REPLAY-MOBILE database demonstrate that our attacked images achieve good performance against a face recognition system equipped with CNN-based anti-spoofing, in that they are able to pass the face detection, spoof detection and face recognition modules of the authentication chain.},
+    author = {Zhang, Bowen and Tondi, Benedetta and Barni, Mauro},
+    doi = {10.1016/j.cviu.2020.102988},
+    issn = {1090235X},
+    journal = {Computer Vision and Image Understanding},
+    keywords = {Adversarial examples,Anti-spoofing,Face authentication,Physical domain adversarial examples,Presentation attack},
+    pages = {102988},
+    publisher = {Elsevier Inc.},
+    title = {{Adversarial examples for replay attacks against CNN-based face recognition with anti-spoofing capability}},
+    url = {https://doi.org/10.1016/j.cviu.2020.102988},
+    volume = {197-198},
+    year = {2020}
+}
+
+@article{Dang2019,
+    abstract = {Detecting manipulated facial images and videos is an increasingly important topic in digital media forensics. As advanced face synthesis and manipulation methods are made available, new types of fake face representations are being created which have raised significant concerns for their use in social media. Hence, it is crucial to detect manipulated face images and localize manipulated regions. Instead of simply using multi-task learning to simultaneously detect manipulated images and predict the manipulated mask (regions), we propose to utilize an attention mechanism to process and improve the feature maps for the classification task. The learned attention maps highlight the informative regions to further improve the binary classification (genuine face v. fake face), and also visualize the manipulated regions. To enable our study of manipulated face detection and localization, we collect a large-scale database that contains numerous types of facial forgeries. With this dataset, we perform a thorough analysis of data-driven fake face detection. We show that the use of an attention mechanism improves facial forgery detection and manipulated region localization.},
+    archivePrefix = {arXiv},
+    arxivId = {1910.01717},
+    author = {Dang, Hao and Liu, Feng and Stehouwer, Joel and Liu, Xiaoming and Jain, Anil},
+    eprint = {1910.01717},
+    journal = {Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition},
+    month = {oct},
+    pages = {5780--5789},
+    publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+    title = {{On the Detection of Digital Face Manipulation}},
+    url = {http://arxiv.org/abs/1910.01717},
+    year = {2019}
+}
+
+
 
 
 
