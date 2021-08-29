@@ -12,17 +12,17 @@
 * see this [[file]](./out/main%20report.pdf).
 
 ## Papers
-### 2021
+### *2021*
 #### pattern recognition letters
 + W. Guo, B. Tondi, and M. Barni, “A Master Key backdoor for universal impersonation attack against DNN-based face verification”. [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S0167865521000210)
 -------------------
-### 2020
+### *2020*
 #### CVPR
 + H. Dang, F. Liu, J. Stehouwer, X. Liu, and A. Jain, “On the Detection of Digital Face Manipulation”. [[PDF]](https://arxiv.org/pdf/1910.01717.pdf) [[code]](https://github.com/JStehouwer/FFD_CVPR2020)
 #### Computer Vision and Image Understanding
 + B. Zhang, B. Tondi, and M. Barni, “Adversarial examples for replay attacks against CNN-based face recognition with anti-spoofing capability” [[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S1077314220300606)
 -------------------
-### 2019
+### *2019*
 #### CVPR
 + Y. Liu, J. Stehouwer, A. Jourabloo, and X. Liu, “Deep tree learning for zero-shot face anti-spoofing”. [[PDF]](https://arxiv.org/pdf/1904.02860.pdf) [[code]](https://github.com/yaojieliu/CVPR2019-DeepTreeLearningForZeroShotFaceAntispoofing)
 ####  IJCNN
@@ -30,11 +30,11 @@
 #### ACM Transactions on Intelligent Systems and Technology
 + W. Wang, V. W. Zheng, H. Yu, and C. Miao, “A Survey of Zero-Shot Learning”. [[PDF]](https://dl.acm.org/doi/10.1145/3293318)
 -------------------
-### 2015
+### *2015*
 #### ICML deep learning workshop
 + G. Koch, R. Zemel, and R. Salakhutdinov, “Siamese Neural Networks for One-shot Image Recognition”. [[PDF]](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) [[code]](https://paperswithcode.com/paper/siamese-neural-networks-for-one-shot-image)
 -------------------
-### 2014
+### *2014*
 ####  IEEE Transactions on Pattern Analysis and Machine Intelligence
 + C. H. Lampert, H. Nickisch, and S. Harmeling, “Attribute-Based Classification for Zero-Shot Visual Object Categorization”. [[PDF]](https://ieeexplore.ieee.org/document/6571196)
 ## Papers-Summary
