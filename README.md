@@ -1,12 +1,19 @@
 # Thesis
 
-## Result
+## Table of Contents
++ [Report](#Report)
++ [Papers Summary](#Papers Summary)
++ [Papers](#Papers)
++ [Datasets](#Datasets)
++ [Other Resources](#Other-resources)
+
+## Report
 
 * see this [[file]](./out/main%20report.pdf).
 
-### Paper Summary
-
-* watch this [[folder]](https://drive.google.com/drive/folders/1JrHljGKNCfpA6uS9GQzVIb2IVjkUveom?usp=sharing), I'll update it.
+### Papers Summary
+* I summarised papers in Persian.
+* watch [[here]](https://drive.google.com/drive/folders/1JrHljGKNCfpA6uS9GQzVIb2IVjkUveom?usp=sharing), I'll update it.
 
 
 ### Datasets
